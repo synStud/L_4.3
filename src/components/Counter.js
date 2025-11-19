@@ -18,7 +18,7 @@ const Counter = () => { // Создание компонента счётчик
         return () => {
             window.removeEventListener("keydown", handleKeyPress);
         };
-    }, [count]);
+    }, []);
 
 	return (
 		<div className="counter">
